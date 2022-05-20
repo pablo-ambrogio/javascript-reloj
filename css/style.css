@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    width: 31rem;
+    height: 31rem;
+    max-width: 33rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    outline: .5rem solid plum;
+    border-radius: 100%;
+}
+
+.contenedor__reloj {
+    text-align: center;
+    /* padding: 2rem 4rem; */
+    /* border-radius: 100%; */
+    display: grid;
+    row-gap: 1rem;
+}
+
+#reloj p {
+    font-size: 5rem;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.dia span {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor {
+        width: 18rem;
+        height: 18rem;
+    }
+
+    #reloj p {
+        font-size: 3rem;
+    }
+    
+    .dia span {
+        font-size: 1.5rem;
+    }
+}
