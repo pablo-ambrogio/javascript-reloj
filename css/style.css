@@ -57,7 +57,7 @@ body {
     font-weight: 300;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .contenedor {
         width: 18rem;
         height: 18rem;

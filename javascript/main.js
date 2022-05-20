@@ -1,4 +1,3 @@
-
 const mostrarHora = () => {
     let reloj = document.getElementById( 'reloj' );
     reloj = new Date;
